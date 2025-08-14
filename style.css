@@ -12,8 +12,10 @@ span{
 @media screen and (min-width:0px) and (max-width:480px){
     .head{
         gap: 0px;
-        display: block;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+       row-gap: 60px ;
 
     }
 }
